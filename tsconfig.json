@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "yenepay.sdk.react-native": ["./src/index"]
+      "yenepay.sdk.react-native": ["./src/index", "./src/models"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

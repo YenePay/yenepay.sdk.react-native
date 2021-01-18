@@ -1,4 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.yenepaysdkreactnative">
 
+  <application>
+    <activity android:name=".NativePaymentActivity"
+      android:exported="true"
+      android:enabled="true"/>
+    <activity android:name=".NativePaymentResponseActivity" />
+  </application>
 </manifest>
